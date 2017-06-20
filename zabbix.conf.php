@@ -4,10 +4,10 @@ global $DB;
 
 $DB['TYPE']     = 'MYSQL';
 $DB['SERVER']   = 'localhost';
-$DB['PORT']     = '3306';
-$DB['DATABASE'] = 'zabbix';
-$DB['USER']     = 'zabbix';
-$DB['PASSWORD'] = 'zabbix';
+$DB['PORT']     = '';
+$DB['DATABASE'] = '';
+$DB['USER']     = '';
+$DB['PASSWORD'] = '';
 
 // Schema name. Used for IBM DB2 and PostgreSQL.
 $DB['SCHEMA'] = '';
